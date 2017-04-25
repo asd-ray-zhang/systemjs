@@ -1,0 +1,27 @@
+{
+  "name": "jspm_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite-server": "lite-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jspm": "^0.16.53",
+    "lite-server": "^2.3.0"
+  },
+  "jspm": {
+    "dependencies": {
+      "jq": "npm:jquery@^3.2.1"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
